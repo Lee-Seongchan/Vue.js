@@ -26,6 +26,7 @@ export default {
       return this.mycolor;
     },
   },
+
   data() {
     return {
       price: 1000,
