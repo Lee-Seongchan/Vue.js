@@ -88,7 +88,7 @@ const btnDeleteUser = () => {
       <th>주소</th>
     </tr>
     <tr v-for="user in users">
-      <td>{{ user.id }}</td>
+      <td>{{ user.uid }}</td>
       <td>{{ user.name }}</td>
       <td>{{ user.hp }}</td>
       <td>{{ user.age }}</td>
@@ -106,7 +106,7 @@ const btnDeleteUser = () => {
       <th>나이</th>
     </tr>
     <tr>
-      <td>{{ user.data.id }}</td>
+      <td>{{ user.data.uid }}</td>
       <td>{{ user.data.name }}</td>
       <td>{{ user.data.hp }}</td>
       <td>{{ user.data.age }}</td>
